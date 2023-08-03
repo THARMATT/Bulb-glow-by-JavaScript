@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.circle
+{
+    height: 250px;
+    width: 250px;
+    border: 5px black;
+    border-radius: 50%;
+    background-color: rgb(238, 198, 198);
+}
+.rectangle{
+    height: 100px;
+    width: 150px;
+    color: red;
+    background-color: rgb(229, 202, 202);
+    margin: -30px 50px;
+}
+button{
+height: 60px;
+width:90px;
+cursor: pointer;
+padding:20px;
+margin:50px 40px;
+/* background-color: aqua;/ */
+align-items: center;
+
+}
